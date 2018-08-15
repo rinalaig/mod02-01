@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Forms</title>
+
+	<!-- link to external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<form>
+		<input type="text" name="username" placeholder="Write your full name here" required>
+		<input type="password" name="password" placeholder="Input Password">
+		<br>
+
+		<input type="radio" name="genre" value="rock" checked="Rock">
+		<input type="radio" name="genre" value="pop">Pop
+		<input type="radio" name="genre" value="jazz">Jazz
+
+		<br>
+
+		<input type="checkbox" name="fruit" value="apple">Apple
+		<input type="checkbox" name="fruit" value="orange">Orange
+		<input type="checkbox" name="fruit" value="melon">Melon
+
+		<hr>
+
+		<select name="brand">
+			<option value="uniqlo">Uniqlo</option>
+			<option value="bench">Bench</option>
+			<option value="penshoppe">Penshoppe</option>
+
+		<hr>
+			
+		</select>
+
+		<hr>
+
+		<label>Name:<input type="text" name="firstname"></label>
+
+		<br>
+
+		<input id="female" type="radio" name="gender" value="f">
+		<label for="female">Female</label>
+
+		<br>
+
+
+		<input type="email" name="email" disabled>
+		<input type="number" name="contact">
+
+		<br>
+
+		<button>img <src="assets/images/puppy.jpg"></button>
+
+		<input type="file" name="song">
+
+		<textarea name="comments">Write your comments here...</textarea>
+		<input type="submit" name="Submit">
+
+		<fieldset>
+			<legend>Contact Details</legend>
+			<label for="email">Email: </label>
+			<input id="email" type="email" name="email"></input>
+			<label>Mobile: <input type="number" name="number"></label>
+		</fieldset>
+
+
+		</form>
+
+</body>
+</html>
